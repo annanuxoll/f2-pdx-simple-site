@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Foundations 2: JavaScript - Course Review</title>
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <h1><span class="course-name"></span></h1>
+
+    <h2>Lectures</h2>
+    <button id="lectures">Get Lectures</button>
+    <div class="get-info" id="show-lectures"></div>
+
+    <h2>Labs</h2>
+    <button id="labs">Get Labs</button>
+    <div class="get-info" id="show-labs"></div>
+
+    <h2>Search <span class="course-name"></span></h2>
+    <form id="search">
+        <input type="text" name="searchText" placeholder="Search for word(s)" /><br />
+        <label for="lucky"><input type="checkbox" name="lucky" id="lucky" /> I feel lucky!</label><br />
+        <input type="submit" value="Find It"/>
+    </form>
+
+    <div id="search-results"></div>
+
+    <script src="./assets/lib/jquery-1.11.3.min.js"></script>
+    <script src="./assets/js/main.js" type="text/javascript"></script>
+  </body>
+</html>
